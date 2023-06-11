@@ -1,3 +1,53 @@
-/* body{
-    margin: ;
-} */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.frame {
+  position: relative;
+  width: 2452px;
+  height: 1186px;
+  background: #ffffff;
+}
+.sidebar {
+    position: fixed;
+    width: 60px; /* Adjust the width as needed */
+    background-color: #b9e5fc;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    width: 40px; /* Adjust the width and height as needed */
+    height: 40px;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 10px;
+  }
+  
+  .menu a {
+    display: block;
+    width: 40px; /* Adjust the width and height as needed */
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #555555;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+  
+  /* Example icon styles (using Font Awesome icons) */
+  .menu i {
+    font-size: 20px;
+  }
+  
