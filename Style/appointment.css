@@ -1,1 +1,6 @@
 @import url('main.css');
+.menu li:nth-child(2) a {
+    background-color: #ffffff; /* Change the background color for the first menu item */
+    color: #000000; /* Change the text color for the first menu item */
+    font-weight: bold; /* Add emphasis to the first menu item */
+  }
