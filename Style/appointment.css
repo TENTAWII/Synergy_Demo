@@ -97,3 +97,10 @@
     margin-left:4px;
     
   }
+  .addbtn{
+position: absolute;
+width: 270px;
+height: 52px; 
+margin-top: 420px;
+font-family: "Poppins";
+  }
