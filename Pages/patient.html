@@ -1,11 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Synergy_Demo/Style/Patient.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chart.js/dist/Chart.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Patients</title>
 </head>
+
 <body>
-    <h1>Welcom</h1>
+    <div class="frame">
+        <div class="logo">
+            <img src="/Synergy_Demo/Images/logo3.png" alt="Logo" />
+            <h3>Synergy</h3>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar">
+                <ul class="menu">
+                    <li class="firstbtn"><a href="/Synergy_Demo/Pages/overview.html"><i
+                                class="fas fa-home"></i>Overview</a></li>
+
+                    <li><a href="/Synergy_Demo/Pages/appointment.html"><i
+                                class="far fa-calendar-alt"></i>Appointment</a></li>
+
+                    <li><a href="/Synergy_Demo/Pages/Emp.html"><i class="fa fa-address-card"
+                                aria-hidden="true"></i>Employes</a></li>
+
+                    <li><a href="/Synergy_Demo/Pages/patient.html"><i class="fas fa-users"></i>Patients</a></li>
+                    <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i>Settings</a></li>
+                </ul>
+            </div>
+
+            <nav>
+                <h1>Good Morning : <span> Nardos</span> </h1>
+                <h4>Patients </h4>
+            </nav>
+            <div class="main">
+                <div class="cards">
+                    <div class="card" id="card3" data-count="51">
+                        <h3> Active Patients </h3>
+                        <h2>51</h2>
+                      </div>
+                    <div class="card" data-count="207">
+                        <h3>On Going Patients</h3>
+                        <h2>207 </h2>
+                    </div>
+                </div>
+                <div class="addbtn"> <a href="/Synergy_Demo/Pages/AddAppointment.html?id=2" class="view-btn">Add New
+                    Patient</a></div>
+
+                <table class="patient-table">
+                    <thead>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Treatment</th>
+                            <th>Paid</th>
+                            <th>Coming Appointment (Date)</th>
+                            <th>Age</th>
+                            <th>Gender</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>Root Canal</td>
+                            <td>$500</td>
+                            <td>June 12, 2023</td>
+                            <td>30</td>
+                            <td>Male</td>
+                            <td>johndoe@example.com</td>
+                            <td>+251900472337</td>
+                            <td>  <a href="/Synergy_Demo/Pages/ViewAppointment.html?id=1" class="view-btn">View</a>
+                                <a href="/remove-appointment?id=3" class="remove-btn">Remove</a>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Tim</td>
+                            <td>James</td>
+                            <td>Canal</td>
+                            <td>$5100</td>
+                            <td>November 2, 2023</td>
+                            <td>30</td>
+                            <td>Male</td>
+                            <td>Tim@example.com</td>
+                            <td>+251900457387</td>
+                            <td>
+                                <a href="/Synergy_Demo/Pages/ViewAppointment.html?id=1" class="view-btn">View</a>
+                                <a href="/remove-appointment?id=3" class="remove-btn">Remove</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Kimberly</td>
+                            <td>H.Tilore</td>
+                            <td>Root Canal</td>
+                            <td>$500</td>
+                            <td>June 12, 2023</td>
+                            <td>60</td>
+                            <td>Female</td>
+                            <td>Kim@example.com</td>
+                            <td>+25192726347</td>
+                            <td> <a href="/Synergy_Demo/Pages/ViewAppointment.html?id=1" class="view-btn">View</a>
+                                <a href="/remove-appointment?id=3" class="remove-btn">Remove</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Romen</td>
+                            <td>Roy</td>
+                            <td>Full Cavity</td>
+                            <td>$11500</td>
+                            <td>June 12, 2023</td>
+                            <td>40</td>
+                            <td>Male</td>
+                            <td>Romen@example.com</td>
+                            <td>+251900457387</td>
+                            <td> <a href="/Synergy_Demo/Pages/ViewAppointment.html?id=1" class="view-btn">View</a>
+                                <a href="/remove-appointment?id=3" class="remove-btn">Remove</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Woods</td>
+                            <td>Dom</td>
+                            <td>Root Change</td>
+                            <td>$2500</td>
+                            <td>June 12, 2023</td>
+                            <td>10</td>
+                            <td>Male</td>
+                            <td>woods@example.com</td>
+                            <td>+251900457387</td>
+                            <td> <a href="/Synergy_Demo/Pages/ViewAppointment.html?id=1" class="view-btn">View</a>
+                                <a href="/remove-appointment?id=3" class="remove-btn">Remove</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Adams</td>
+                            <td>F.Roy</td>
+                            <td>Root Canal</td>
+                            <td>$500</td>
+                            <td>June 12, 2023</td>
+                            <td>20</td>
+                            <td>Male</td>
+                            <td>johndoe@example.com</td>
+                            <td>+251900457387</td>
+                            <td>  <a href="/Synergy_Demo/Pages/ViewAppointment.html?id=1" class="view-btn">View</a>
+                                <a href="/remove-appointment?id=3" class="remove-btn">Remove</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>James</td>
+                            <td>Roy</td>
+                            <td>Canal</td>
+                            <td>$5100</td>
+                            <td>November 2, 2023</td>
+                            <td>30</td>
+                            <td>Male</td>
+                            <td>Tim@example.com</td>
+                            <td>+251900457387</td>
+                            <td>
+                                <a href="/Synergy_Demo/Pages/ViewAppointment.html?id=1" class="view-btn">View</a>
+                                <a href="/remove-appointment?id=3" class="remove-btn">Remove</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Tim</td>
+                            <td>James</td>
+                            <td>Canal</td>
+                            <td>$5100</td>
+                            <td>November 2, 2023</td>
+                            <td>30</td>
+                            <td>Male</td>
+                            <td>Tim@example.com</td>
+                            <td>+251900457387</td>
+                            <td>
+                                <a href="/Synergy_Demo/Pages/ViewAppointment.html?id=1" class="view-btn">View</a>
+                                <a href="/remove-appointment?id=3" class="remove-btn">Remove</a>
+                            </td>
+                        </tr>
+                        <!-- Add more rows for additional patient information -->
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+    </div><!-- frame -->
+    <script src="/Synergy_Demo/Scripts/charts.js"></script>
+    <script src="/Synergy_Demo/Scripts/animation.js"></script>
+    <script src="https://kit.fontawesome.com/d05f3ea637.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

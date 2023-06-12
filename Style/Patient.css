@@ -1,0 +1,77 @@
+@import url('main.css');
+.addbtn{
+    position:absolute;
+    width: 270px;
+    height: 52px; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: "Poppins";
+     }
+     .addbtn a{
+       background-color: #4fc771;
+       border: none;
+       color: rgb(255, 255, 255);
+       padding: 15px 32px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 15.5px;
+       font-weight: bold;
+       font-family: "Poppins";
+       cursor: pointer;
+       border-radius: 4px;
+       margin-right: 4px;
+       margin-left:4px;
+       
+     }
+     .view-btn{
+        background-color: #13789d;
+        border: none;
+        color: rgb(255, 255, 255);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15.5px;
+        font-weight: bold;
+        font-family: "Poppins";
+        cursor: pointer;
+        border-radius: 4px;
+        margin-right: 4px;
+        margin-left:4px;
+        
+      }
+      .remove-btn{
+        background-color: crimson;
+        border: none;
+        color: rgb(255, 255, 255);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15.5px;
+        font-weight: bold;
+        font-family: "Poppins";
+        cursor: pointer;
+        border-radius: 4px;
+        margin-right: 4px;
+        margin-left:4px;
+      }
+      .menu li:nth-child(1) a {
+        background-color: #0c1f2b;  
+        color: #ffffff; 
+        font-weight: bold;  
+      }
+      .menu li:nth-child(2) a:hover{
+        background-color: #ffffff;
+        color: #000000;
+      }
+      .menu li:nth-child(1) a:hover{
+        background-color: #ffffff;
+        color: #000000;
+      }
+    .menu li:nth-child(4) a {
+        background-color: #ffffff; /* Change the background color for the first menu item */
+        color: #000000; /* Change the text color for the first menu item */
+        font-weight: bold;  
+      }
