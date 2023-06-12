@@ -65,7 +65,7 @@
     margin-left:4px;
   }
   .remove-btn{
-    background-color: crimson;
+    background-color: #FE6D73;
     border: none;
     color: rgb(255, 255, 255);
     padding: 15px 32px;
@@ -81,7 +81,7 @@
     margin-left:4px;
   }
   .view-btn{
-    background-color: rgb(12, 111, 173);
+    background-color: #13789d;
     border: none;
     color: rgb(255, 255, 255);
     padding: 15px 32px;
@@ -105,5 +105,21 @@ margin-top: 420px;
 font-family: "Poppins";
   }
   .addbtn a{
+    background-color: #57a5c1;
+  }
+  .com-btn{
     background-color: rgb(44, 187, 132);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15.5px;
+    font-weight: bold;
+    font-family: "Poppins";
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-left:4px;
   }
