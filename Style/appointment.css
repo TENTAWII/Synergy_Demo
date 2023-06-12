@@ -1,6 +1,45 @@
 @import url('main.css');
+.menu li:nth-child(1) a {
+    background-color: #0c1f2b;  
+    color: #ffffff; 
+    font-weight: bold;  
+  }
+  .menu li:nth-child(1) a:hover{
+    background-color: #ffffff;
+    color: #000000;
+  }
 .menu li:nth-child(2) a {
     background-color: #ffffff; /* Change the background color for the first menu item */
     color: #000000; /* Change the text color for the first menu item */
-    font-weight: bold; /* Add emphasis to the first menu item */
+    font-weight: bold;  
   }
+
+  .patient-table th,
+  
+  .patient-table td {
+    padding: 10px;
+    border: 1px solid #ffffff;
+  }
+  
+  .patient-table th {
+    background-color: #0c1f2b;
+    text-align: left;
+    font-weight: bold;
+    color: #b8b7b7;
+  }
+  
+  .patient-table tbody tr:nth-child(even) {
+    background-color: #eaeaea;
+  }
+  
+  .patient-table tbody tr:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  .cards{
+    background-color: #ffffff;
+    color: #b8b7b7;
+
+    padding-right: 12px;
+  }
+ 

@@ -18,7 +18,7 @@
         <div class="sidebar">
             <div class="sidebar">
                 <ul class="menu">
-                  <li><a href="/Synergy_Demo/Pages/overview.html"><i class="fas fa-home"></i>Overview</a></li>   
+                  <li class="firstbtn"><a href="/Synergy_Demo/Pages/overview.html"><i class="fas fa-home"></i>Overview</a></li>   
                
                   <li><a href="/Synergy_Demo/Pages/appointment.html"><i class="far fa-calendar-alt"></i>Appointment</a></li>
                 
@@ -31,127 +31,62 @@
          
                 <nav>
                     <h1>Good Morning : <span>  Nardos</span> </h1>
-                    <h4>Today is Monday June 6 2023</h4>
+                    <h4>Appointements this week</h4>
                  </nav>
            <div class="main">
             <div class="cards">
-                <div class="card">
-                  <h3>On Going Patients</h3>
-                  <h2>207  </h2>
-                </div>
-                <div class="card" id="card2">
+                <div class="card" id="card2" data-count="153">
                   <h3>Appointements this week</h3>
                   <h2>153</h2>
                 </div>
-                <div class="card" id="card3">
-                  <h3>  Active Patients </h3>
-                  <h2>51</h2>
-                </div>
-                <div class="card" id="card4">
-                  <h3>Revenue</h3>
-                  <h2>$10,500 <i class="fa fa-chevron-circle-up" aria-hidden="true" style="color: rgb(39, 192, 141);"></i></h2>
-                </div>
+                
               </div>
-              <div class="chart-container">
-                <div class="chart" id="revenueCharst">
-                  <canvas id="revenueChart"></canvas>
-                </div>
-                <div class="chart"  id="appointmentsCharts">
-                  <canvas id="appointmentsChart"></canvas>
-                </div>
-                <div class="chart">
-                  <canvas id="genderChart"></canvas>
-                </div>
-              </div>
-              
-              <table class="patient-table">
-                <thead>
-                  <tr>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Treatment</th>
-                    <th>Paid</th>
-                    <th>Coming Appointment (Date)</th>
-                    <th>Age</th>
-                    <th>Gender</th>
-                    <th>Email</th>
-                    <th>Phone</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>Root Canal</td>
-                    <td>$500</td>
-                    <td>June 12, 2023</td>
-                    <td>30</td>
-                    <td>Male</td>
-                    <td>johndoe@example.com</td>
-                    <td>+251900472337</td>
-                  </tr>
-                  <tr>
-                    <td>Tim</td>
-                    <td>James</td>
-                    <td>Canal</td>
-                    <td>$5100</td>
-                    <td>November 2, 2023</td>
-                    <td>30</td>
-                    <td>Male</td>
-                    <td>Tim@example.com</td>
-                    <td>+251900457387</td>
-                  </tr>
-                  <tr>
-                    <td>Kimberly</td>
-                    <td>H.Tilore</td>
-                    <td>Root Canal</td>
-                    <td>$500</td>
-                    <td>June 12, 2023</td>
-                    <td>60</td>
-                    <td>Female</td>
-                    <td>Kim@example.com</td>
-                    <td>+25192726347</td>
-                  </tr>
-                  <tr>
-                    <td>Romen</td>
-                    <td>Roy</td>
-                    <td>Full Cavity</td>
-                    <td>$11500</td>
-                    <td>June 12, 2023</td>
-                    <td>40</td>
-                    <td>Male</td>
-                    <td>Romen@example.com</td>
-                    <td>+251900457387</td>
-                  </tr>
-                  <tr>
-                    <td>Woods</td>
-                    <td>Dom</td>
-                    <td>Root Change</td>
-                    <td>$2500</td>
-                    <td>June 12, 2023</td>
-                    <td>10</td>
-                    <td>Male</td>
-                    <td>woods@example.com</td>
-                    <td>+251900457387</td>
-                  </tr>
-                  <tr>
-                    <td>Adams</td>
-                    <td>F.Roy</td>
-                    <td>Root Canal</td>
-                    <td>$500</td>
-                    <td>June 12, 2023</td>
-                    <td>20</td>
-                    <td>Male</td>
-                    <td>johndoe@example.com</td>
-                    <td>+251900457387</td>
-
-                  </tr>
-                  <!-- Add more rows for additional patient information -->
-                </tbody>
-              </table>
+                <table class="patient-table">
+                    <thead>
+                      <tr>
+                        <th>Appointment Date</th>
+                        <th>Patient Name</th>
+                        <th>Procedure</th>
+                        <th>Doctor</th>
+                        <th>Assistant</th>
+                        <th>Room</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>June 15, 2023</td>
+                        <td>John Doe</td>
+                        <td>Teeth Cleaning</td>
+                        <td>Dr. Smith</td>
+                        <td>Emily Johnson</td>
+                        <td>Room 1</td>
+                      </tr>
+                      <tr>
+                        <td>June 18, 2023</td>
+                        <td>Jane Smith</td>
+                        <td>Root Canal</td>
+                        <td>Dr. Johnson</td>
+                        <td>Michael Davis</td>
+                        <td>Room 3</td>
+                      </tr>
+                      <tr>
+                        <td>June 20, 2023</td>
+                        <td>Emily Brown</td>
+                        <td>Extraction</td>
+                        <td>Dr. Wilson</td>
+                        <td>Amy Adams</td>
+                        <td>Room 2</td>
+                      </tr>
+                      <!-- Add more rows for additional appointment details -->
+                    </tbody>
+                  </table>     
+                  <div class="btn">
+                    <li><a href="/Synergy_Demo/Pages/add.html"></a></li>
+                  </div>
            </div>
         </div>
       
     </div><!-- frame -->
 </body>
+  <script src="/Synergy_Demo/Scripts/animation.js"></script>
 </html>
