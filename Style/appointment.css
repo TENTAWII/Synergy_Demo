@@ -13,26 +13,33 @@
     color: #000000; /* Change the text color for the first menu item */
     font-weight: bold;  
   }
-
-  .patient-table th,
-  
-  .patient-table td {
+  .appointment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 120px;
+    font-family: "Poppins";
+    font-weight: 400;
+    background-color: #14333f37;
+    
+  }
+  .appointment-table  th,
+  .appointment-table td {
     padding: 10px;
     border: 1px solid #ffffff;
   }
   
-  .patient-table th {
+  .appointment-table th {
     background-color: #0c1f2b;
     text-align: left;
     font-weight: bold;
     color: #b8b7b7;
   }
   
-  .patient-table tbody tr:nth-child(even) {
+  .appointment-table  tbody tr:nth-child(even) {
     background-color: #eaeaea;
   }
   
-  .patient-table tbody tr:hover {
+  .appointment-table tbody tr:hover {
     background-color: #ffffff;
     cursor: pointer;
   }
@@ -42,4 +49,51 @@
 
     padding-right: 12px;
   }
- 
+  button{
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15.5px;
+    font-weight: bold;
+    font-family: "Poppins";
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-left:4px;
+  }
+  .remove-btn{
+    background-color: crimson;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15.5px;
+    font-weight: bold;
+    font-family: "Poppins";
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-left:4px;
+  }
+  .view-btn{
+    background-color: rgb(12, 111, 173);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15.5px;
+    font-weight: bold;
+    font-family: "Poppins";
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-left:4px;
+    
+  }

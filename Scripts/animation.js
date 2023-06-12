@@ -4,8 +4,8 @@ cards.forEach(card => {
   const targetCount = parseInt(card.dataset.count, 10);
 
   let count = 0;
-  const duration = 2000;
-  const increment = Math.ceil(targetCount / (duration / 10));
+  const duration = 1000;
+  const increment = Math.ceil(targetCount / (duration / 5));
 
   const interval = setInterval(() => {
     count += increment;

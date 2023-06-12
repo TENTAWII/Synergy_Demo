@@ -41,48 +41,59 @@
                 </div>
                 
               </div>
-                <table class="patient-table">
-                    <thead>
-                      <tr>
-                        <th>Appointment Date</th>
-                        <th>Patient Name</th>
-                        <th>Procedure</th>
-                        <th>Doctor</th>
-                        <th>Assistant</th>
-                        <th>Room</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>June 15, 2023</td>
-                        <td>John Doe</td>
-                        <td>Teeth Cleaning</td>
-                        <td>Dr. Smith</td>
-                        <td>Emily Johnson</td>
-                        <td>Room 1</td>
-                      </tr>
-                      <tr>
-                        <td>June 18, 2023</td>
-                        <td>Jane Smith</td>
-                        <td>Root Canal</td>
-                        <td>Dr. Johnson</td>
-                        <td>Michael Davis</td>
-                        <td>Room 3</td>
-                      </tr>
-                      <tr>
-                        <td>June 20, 2023</td>
-                        <td>Emily Brown</td>
-                        <td>Extraction</td>
-                        <td>Dr. Wilson</td>
-                        <td>Amy Adams</td>
-                        <td>Room 2</td>
-                      </tr>
-                      <!-- Add more rows for additional appointment details -->
-                    </tbody>
-                  </table>     
-                  <div class="btn">
-                    <li><a href="/Synergy_Demo/Pages/add.html"></a></li>
-                  </div>
+              <table class="appointment-table">
+                <thead>
+                  <tr>
+                    <th>Appointment Date</th>
+                    <th>Patient Name</th>
+                    <th>Procedure</th>
+                    <th>Doctor</th>
+                    <th>Assistant</th>
+                    <th>Room</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>June 15, 2023</td>
+                    <td>John Doe</td>
+                    <td>Teeth Cleaning</td>
+                    <td>Dr. Smith</td>
+                    <td>Emily Johnson</td>
+                    <td>Room 1</td>
+                    <td>
+                        <a href="/Synergy_Demo/Pages/ViewAppointment.html?id=1" class="view-btn">View</a>
+                        <a href="/remove-appointment?id=3" class="remove-btn">Remove</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>June 18, 2023</td>
+                    <td>Jane Smith</td>
+                    <td>Root Canal</td>
+                    <td>Dr. Johnson</td>
+                    <td>Michael Davis</td>
+                    <td>Room 3</td>
+                    <td>
+                        <a href="/Synergy_Demo/Pages/ViewAppointment.html?id=2" class="view-btn">View</a>
+                        <a href="/remove-appointment?id=3" class="remove-btn">Remove</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>June 20, 2023</td>
+                    <td>Emily Brown</td>
+                    <td>Extraction</td>
+                    <td>Dr. Wilson</td>
+                    <td>Amy Adams</td>
+                    <td>Room 2</td>
+                    <td>
+                        <a href="/Synergy_Demo/Pages/ViewAppointment.html?id=3" class="view-btn">View</a>
+                        <a href="/remove-appointment?id=3" class="remove-btn">Remove</a>
+                    </td>
+                  </tr>
+                  <!-- Add more rows for additional appointment details -->
+                </tbody>
+              </table>
+              
            </div>
         </div>
       
