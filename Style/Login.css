@@ -6,120 +6,158 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #ffffff;
-  }
-  
+    /* background-image: url("/Synergy_Demo/Images/Bg_1.png");
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
   .con {
     display: flex;
-    border: 1px solid black;
+    border-right: #101c3b solid 1px;
     width: 1500px;
     height: 1000px;
+    /* box-shadow: 22px 21px 5px rgba(0, 0, 0, 0.156); */
   }
   
   .picturebox {
     flex: 1;
-    background-color: #58dfdf; /* Replace with your desired background color */
+    background-color: #495867; /* Replace with your desired background color */
     /* Add any additional styles for the picturebox */
   }
   
   .form {
     flex: 1;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding-top: 120px;
+ 
     font-family: 'Poppins';
     align-items: center;
     justify-content: center;
+     
+    
+ 
 }
 
-  
-  h1 {
-    
-width: 400px;
-height: 66px;
-left: calc(50% - 1030px/2 + 534.5px);
-top: 134px;
-border: 1px solid ;
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 60px;
+form{
+ 
 text-align: center;
+padding-top: 100px;
+margin-top: 20px;
+padding-bottom: 200px;
 
-color: #000000;
+}
+input{
+  width:300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'Quicksand';
+  color: #000;
+  font-weight: 600;
+  border: #101c3b 1.3px solid;
+}
+input:hover{
+  border: #101c3b 2px solid;
+  cursor:text;
+}
+ 
+a{
+  
+   text-decoration: none;
+   list-style: none;
+   color: #000;
+   font-size: 14px;
+  width: 500px;
+ padding-left:90px ;
+ padding-right: 300px;
 
-  }
+}
+
+.sign-in{
+  margin-top: 50px;
+  margin-bottom: 15px;
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Poppins";
+  font-size: 16px;
+  background-color: #DB2955;
+  color: white;
+  border: none;
+  border-radius:3.3px ;
+  cursor: pointer;
+}
+.sign-in-google{
+  margin-top: 0px;
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Poppins";
+  font-size: 16px;
+  background-color: #628395;
+  color: rgb(255, 255, 255);
+ border: none;
+ cursor: pointer;
   
-  h5 {
-    width: 408px;
-    height: 10px;
-    left: calc(50% - 1068px/2 + 534.5px);
-    top: 187px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 364%;
-    /* or 73px */
-    
-    text-align: center;
-    letter-spacing: 0.055em;
-    
-    color: #4B4848;
-  }
+
   
-  form {
-    display: flex;
-    flex-direction: column;
-  }
+}
+i{
+  width: 30px;
+  height: 20px;
+ align-self: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 12px;
+  color: #ffffff;
+  margin-right: 20px;
+  font-size: 20px;
   
-  input[type="text"],
-  input[type="password"] {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
+}
+.logo
+{ 
+  text-align: center;
+  margin-top: 250px;
+}
+.headertext{
+ 
+ text-align: center;
+ padding-top: 10px;
+ margin-top: 10px;
+ font-family: 'Poppins';
+ color: white;
+ font-weight: 300;
+ 
+}
+span{
+  font-weight: 400;
+  font-size: 40px;
+}
+.demo_text{
+  font-size: 22px;
+}
+footer{
+  font-family: 'Poppins';
+  color: white;
+  font-size: 20px;
+  margin-top: 330px;
+  text-align: center;
   
-  label {
-    font-size: 14px;
-    color: #888;
-  }
+}
+.welx{
+ 
+  text-align: center;
+
+}
+.enter{
   
-  .checkbox-container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-  }
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 200;
   
-  .checkbox-container input[type="checkbox"] {
-    margin-right: 5px;
-  }
-  
-  .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .btn-google {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #dd4b39;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .btn-google i {
-    margin-right: 10px;
-  }
-  
+
+} 
+ 
